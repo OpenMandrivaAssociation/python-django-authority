@@ -1,7 +1,7 @@
 %define  oname  django-authority
 Name:           python-%{oname}
 Version:        0.3
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        A Django app for generic per-object permissions and custom permission checks
 
 Group:          Development/Python
