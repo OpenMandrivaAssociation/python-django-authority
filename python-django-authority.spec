@@ -1,7 +1,7 @@
 %define  oname  django-authority
 Name:           python-%{oname}
-Version:        0.3
-Release:        %mkrel 2
+Version:        0.4
+Release:        %mkrel 1
 Summary:        A Django app for generic per-object permissions and custom permission checks
 
 Group:          Development/Python
@@ -38,4 +38,3 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 %doc AUTHORS LICENSE README docs/build/html/
 %{python_sitelib}/*
-
