@@ -38,3 +38,18 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 %doc AUTHORS LICENSE README docs/build/html/
 %{python_sitelib}/*
+
+
+%changelog
+* Fri Nov 12 2010 Ahmad Samir <ahmadsamir@mandriva.org> 0.4-1mdv2011.0
++ Revision: 596496
+- Update to 0.4
+
+* Tue Nov 02 2010 Ahmad Samir <ahmadsamir@mandriva.org> 0.3-2mdv2011.0
++ Revision: 592241
+- rebuild for python 2.7
+
+* Wed Sep 29 2010 Michael Scherer <misc@mandriva.org> 0.3-1mdv2011.0
++ Revision: 581942
+- import python-django-authority
+
