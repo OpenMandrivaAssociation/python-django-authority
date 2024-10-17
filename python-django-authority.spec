@@ -6,7 +6,7 @@ Summary:        A Django app for generic per-object permissions and custom permi
 
 Group:          Development/Python
 License:        BSD
-URL:            http://bitbucket.org/jezdez/%{oname}/
+URL:            https://bitbucket.org/jezdez/%{oname}/
 Source:         http://bitbucket.org/jezdez/%{oname}/downloads/%{oname}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
